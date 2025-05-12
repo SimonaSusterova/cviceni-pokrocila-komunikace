@@ -1,5 +1,6 @@
 import { SwitchButton } from './SwitchButton';
 import './style.css';
+import { useState } from 'react';   
 
 /*
   Zadání: V tomto úkolu začneme zjednodušnou komunikací mezi komponentami. 

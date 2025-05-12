@@ -1,5 +1,7 @@
 import './style.css';
 
+
+
 export const SwitchButton = ({ label , onSwitch, lightOn}) => {
   return (
     <button className="switch-button
