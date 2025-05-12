@@ -30,10 +30,17 @@ import './style.css';
 */
 
 export const Ukol1 = () => {
+  const [bulbOn, setBulbOn] = useState(true);
   return (
     <>
-      <div className="bulb bulb--on" />
-      <SwitchButton label="Vypnout" />
+      <div className={bulbOn ? "bulb bulb--on" :
+      "bulb"/>
+      <SwitchButton
+       label={bulbOn ? "Vypnout":"zapnout"}
+       onSwitch={(lightOn)
+       => setBulbOn (lightOn)} 
+       />
     </>
   );
 };
+
