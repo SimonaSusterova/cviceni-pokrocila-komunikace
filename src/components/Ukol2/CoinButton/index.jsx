@@ -9,3 +9,4 @@ export const CoinButton = ({ value, onCoinClick }) => {
     </button>
   );
 };
+ 

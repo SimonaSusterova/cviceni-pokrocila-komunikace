@@ -1,7 +1,7 @@
 import { NumpadButton } from "./NumpadButton";
 import { FunctionButton } from "./FunctionButton";
 import "./style.css";
-
+import { useState } from 'react';   
 /*
   Zadání: Zprovozněte číselník tak, aby se po kliknutí na tlačítka správně skládalo číslo 
     na displeji.
